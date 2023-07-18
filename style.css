@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/*This is nav section*/
+
+.nav-img{
+     width: 50px;
+     height: 50px;
+}
+.left-item{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.right-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9376e0;
+    color: white;
+}
+
+#nav-button{
+    background-color:#e893cf; 
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+}
+.left-item{
+    flex-direction: column;
+}
+.right-item{
+    flex-direction: column;
+}
+}
