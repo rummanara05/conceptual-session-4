@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lato:wght@700;900&family=Poppins:wght@600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 body{
     font-family: 'Lato', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
+
 }
 
 /*This is nav section*/
@@ -39,9 +40,52 @@ font-family: 'Work Sans', sans-serif;
     color: black;
     
 }
+/* this is banner section*/
 
+.banner-container{
+    min-height: 50px;
+    margin: 50px auto 0;
+    max-width: 1400px;
+    display: flex;
+    text-align: center;
+    background-color: rgba(112, 128, 144, 0.178);
+    padding: 10px;
+}
+.left-banner{
+    width: 50%;
+    
+}
+.right-banner{
+    width: 50%;
+    
+}
+.right-banner img{
+    width: 100%;
+    height: 100%;
+}
+#banner-head{
+    background-image: linear-gradient(#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 45px;
+}
+.left-banner h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
+}
 
+.fa-brands{
+    font-size: 50px;
+    gap:10px;
+}
 
+.banner-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 
 
 
@@ -56,5 +100,14 @@ font-family: 'Work Sans', sans-serif;
 }
 .right-item{
     flex-direction: column;
+}
+.banner-container{
+    flex-direction: column;
+}
+.left-banner{
+    width: 100%;
+}
+.right-banner{
+    width: 100%;
 }
 }
